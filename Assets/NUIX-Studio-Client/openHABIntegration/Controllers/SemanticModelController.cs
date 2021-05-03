@@ -97,7 +97,7 @@ class SemanticModelController : MonoBehaviour
         {
             GameObject itemWidget = Instantiate(itemWidgetPrefab, SemanticModel.getInstance().SpawnPosition, Quaternion.identity) as GameObject;
             itemWidget.GetComponent<ItemWidget>().item = item.name;
-            itemWidget.name = item.name + " Widget";
+            itemWidget.name = item.name;
             itemWidgets.Add(itemWidget);
         }
 
@@ -109,7 +109,8 @@ class SemanticModelController : MonoBehaviour
             {
                 GameObject itemWidget = Instantiate(itemTagWidgetPrefab, SemanticModel.getInstance().SpawnPosition, Quaternion.identity) as GameObject;
                 itemWidget.GetComponent<ItemWidget>().item = item.name;
-                itemWidget.name = item.name + itemTag + " Widget";
+                itemWidget.GetComponent<ItemWidget>().itemTag = itemTag;
+                itemWidget.name = item.name + itemTag;
                 itemWidgets.Add(itemWidget);
             }
         }
