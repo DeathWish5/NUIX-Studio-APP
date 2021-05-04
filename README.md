@@ -40,7 +40,7 @@ Connection to real-world IoT devices is performed by REST API calls to [openHAB]
 
 ## Setup
 
-[![Watch the video](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/v0.6/VideoPreview.png)](https://www.bilibili.com/video/BV1Wy4y1s7cs?share_source=copy_web)
+[![Watch the video](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/v0.6/VideoPreview.png)](https://space.bilibili.com/698910893/channel/detail?cid=180284&ctype=0)
 
 ### openHAB installation
 
