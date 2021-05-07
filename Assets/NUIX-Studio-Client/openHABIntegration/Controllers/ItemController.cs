@@ -285,10 +285,6 @@ public class ItemController
         SetItemOnServer(value.ToString());
     }
 
-        
-
-
-
     /// <summary>
     /// Getter for item ID
     /// </summary>
