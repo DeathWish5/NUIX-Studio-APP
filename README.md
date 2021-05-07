@@ -44,7 +44,7 @@ Connection to real-world IoT devices is performed by REST API calls to [openHAB]
 
 ### openHAB installation
 
-1. Install [openHAB](https://openhab.org/docs/installation/)
+1. Install [openHAB](https://openhab.org/docs/installation/). Set username to "admin" and password to "password".
 ### openHAB example device adding
 2. The server is accessible at <Your IP Address>:8080
 3. Go to Settings - Bindings and add Network Binding
