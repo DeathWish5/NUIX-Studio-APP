@@ -65,25 +65,25 @@ IoT device in VR = 3D mesh + sensors. Each sensor is a data item + interactable 
 
 1. Add real-world IoT devices into openHAB, and they will automatically appear in the NUIX-Studio App. 
 2. Enhance these devices' functionality with extra virtual sensors by adding the [supported tags]().
-3. Add fully virtual IoT sensors by dragging the Widgets into the Scene in Unity (uncheck Connected to Server for work locally).
+3. Add fully virtual IoT sensors by dragging the Widgets into the Scene in Unity (from Assets/Resources/Widgets).
 4. Work simultaneously with the same IoT data by connecting to the same sever from different devices.
 5. [Watch tutorial videos](https://space.bilibili.com/698910893/channel/detail?cid=180284)
 
 Item Basic Widgets:
-| Item | Widget |
-| --- | --- |
-| Color | Color information (RGB) |
+| Item | Widget | Supported | 
+| --- | --- | --- |
+| Color | Color information (RGB) | :heavy_check_mark: |
 | Contact | Status of contacts, e.g. door/window contacts. Does not accept commands, only status updates. |
 | DateTime | Stores date and time |
-| Dimmer | Percentage value for dimmers |
+| Dimmer | Percentage value for dimmers | :heavy_check_mark: |
 | Group | Nest other items / collect them in groups |
-| Image | Binary data of an image |
+| Image | Binary data of an image | :heavy_check_mark: |
 | Location | GPS coordinates |
-| Number | Values in number format |
-| Player | Allows control of players (e.g. audio players) |
+| Number | Values in number format | :heavy_check_mark: |
+| Player | Allows control of players (e.g. audio players) | :heavy_check_mark: |
 | Rollershutter | Roller shutter Item, typically used for blinds |
-| String | Stores texts |
-| Switch | Switch Item, used for anything that needs to be switched ON and OFF |
+| String | Stores texts | :heavy_check_mark: |
+| Switch | Switch Item, used for anything that needs to be switched ON and OFF | :heavy_check_mark: |
 
 
 ### Input simulation
