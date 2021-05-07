@@ -72,18 +72,18 @@ IoT device in VR = 3D mesh + sensors. Each sensor is a data item + interactable 
 Item Basic Widgets:
 | Item | Widget | Supported | 
 | --- | --- | --- |
-| Color | Color information (RGB) | :heavy_check_mark: |
-| Contact | Status of contacts, e.g. door/window contacts. Does not accept commands, only status updates. |
+| Color | Color information (RGB) - Colorpicker GameObject | :heavy_check_mark: |
+| Contact | Status of contacts, e.g. door/window contacts. - Two block GameObjects | :heavy_check_mark: |
 | DateTime | Stores date and time |
-| Dimmer | Percentage value for dimmers | :heavy_check_mark: |
+| Dimmer | Percentage value for dimmers - Pinchslider GameObject | :heavy_check_mark: |
 | Group | Nest other items / collect them in groups |
-| Image | Binary data of an image | :heavy_check_mark: |
+| Image | Binary data of an image - texture on a Plane GameObject | :heavy_check_mark: |
 | Location | GPS coordinates |
-| Number | Values in number format | :heavy_check_mark: |
-| Player | Allows control of players (e.g. audio players) | :heavy_check_mark: |
+| Number | Values in number format - TextmeshPro GameObject | :heavy_check_mark: |
+| Player | Allows control of players (e.g. audio players) - Buttons GameObjects | :heavy_check_mark: |
 | Rollershutter | Roller shutter Item, typically used for blinds |
-| String | Stores texts | :heavy_check_mark: |
-| Switch | Switch Item, used for anything that needs to be switched ON and OFF | :heavy_check_mark: |
+| String | Stores texts - TextmeshPro GameObject | :heavy_check_mark: |
+| Switch | Switch Item, used for anything that needs to be switched ON and OFF - Toggle GameObject | :heavy_check_mark: |
 
 
 ### Input simulation
